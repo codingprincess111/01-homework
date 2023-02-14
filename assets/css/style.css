@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Added header elememt */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,7 +24,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/* Added nav */
 nav {
     padding-top: 0px;
     margin-right: 10px;
@@ -32,7 +33,7 @@ nav {
     font-size: 20px;
 }
 
-
+/* Added nav a to define buttons at top of page */
 nav a {
     color: #ffffff;
     text-decoration: none;
@@ -52,7 +53,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* added main */
 main {
     width: 75%;
     display: inline-block;
@@ -69,7 +70,27 @@ main {
     margin-left: 25px;
 }
 
+/* changed section class to service-name */
+.service-name {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* consolidated service-name img class */
+.service-name img {
+    max-height: 200px;
+}
+/* consolidated service-name h2 class */
+.service-name h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
 
+/* organized order of classes by the order of which listed on index.html */
+/* changed aside class to benefits to define the benefits of social media marketing side of the page */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -80,41 +101,24 @@ main {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* changed div class to benefit  */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* consolidated benefit h3 class */
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* consolidated benefit img class */
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.service-name {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.service-name img {
-    max-height: 200px;
-}
-
-.service-name h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* added footer of page */
 .footer {
     padding: 30px;
     clear: both;
